@@ -1,0 +1,475 @@
+@charset "utf-8";
+/* CSS Document */
+
+a{
+	color: black;
+	text-decoration: none;
+	font-size:18px;
+}
+
+a:hover {
+    color: darkblue;
+	text-decoration: none;
+	font-size:18px;
+
+}
+
+body{
+	/*background-color: #e5e5d8;*/
+	background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size:18px;
+}
+
+div img{	
+	height: 20%;
+	width: 22%;
+	background-size: cover;
+ 	background-position: center;
+	display: inline-block;
+	margin: 1%;
+	font-size:18px;
+}
+
+footer{
+	background-color: white;
+	/*float: left;*/
+	margin-top: 2%;
+	/*Didn't work
+	width: 100vw;*/	
+	font-size:18px;
+	
+	/*position: absolute;*/
+	bottom: 0;
+	width: 100%;
+}
+
+footer div{
+	width: 20%;
+	margin: 1%;
+	float: left;
+	/*display: inline-block;*/
+	font-size:18px;
+	
+}
+
+footer div ul li{
+	/*display: inline-block;*/
+	list-style-type: none;
+	padding-left: 20px;
+	text-decoration: none;
+	font-size:18px;
+}
+
+.social{
+	display: inline-block;
+	font-size:18px;
+}
+
+footer div ul a{
+	color: black;
+	text-decoration: none;
+	font-size:18px;
+}
+
+footer form{
+	width: 40%;
+	margin: 1%;
+	float:right;
+	padding: 2%;
+	font-size:18px;
+}
+
+footer form div{
+	display:inline-block;
+	float: left;
+	font-size:18px;
+}
+
+h1{
+	color: white;
+	font-size: 55px;
+	padding-top: 120px;
+	padding-left: 60px;
+}
+
+nav {
+	float:right;
+	padding-right: 20px;
+	font-size:18px;
+}
+
+/* not working
+header{
+	position: fixed;
+	width: 100%;
+}
+.headerContent{
+	width:100%;
+    position:fixed;
+    top:0px;
+}*/
+
+header img{
+	max-width: 300px;
+	font-size:18px;
+}
+
+@media screen and (max-width: 767px) {   
+    header img{
+		content: url(images/logo0.png)
+		font-size:18px;
+	} 
+}
+
+nav ul li {
+	list-style-type: none;
+	padding-left: 20px;
+	text-align: right;
+	font-size:18px;
+}
+
+@media screen and (min-width: 767px) {   
+    nav ul li{
+		display: inline-block;
+		font-size:18px;
+	} 
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #2BA273;
+	font-size:18px;
+}
+
+.caseBottom{
+	float: right;
+	font-size:18px;
+}
+
+.caseMainBox{
+	background-color: #ff00d7;
+	background-image: url(images/mfg4.jpg);
+	background-size:100%;
+	height:10%;
+	margin:1%;
+	opacity: 0.3;
+	font-size:38px;
+}
+
+/*
+video{
+	background-size:100%;
+	height:10%;
+	margin:1%;
+	font-size:38px;	
+}*/
+
+.studiesMainBox{
+	background-color: #ff00d7;
+	background-image: url(images/mfg4.jpg);
+	background-size:100%;
+	height:200px;
+	margin:1%;
+	opacity: 0.3;
+	width: 100%;
+	font-size:38px;
+}
+
+
+.caseSubject{
+	float: left;
+	width: 18%;
+	font-size:18px;
+}
+
+.caseText{
+	float: right;
+	padding-left: 2px;
+	width: 74%;
+	font-size:18px;
+}
+
+.caseTop {
+	float: left;
+	font-size:18px;
+}
+
+.hide {
+	visibility: hidden;
+	font-size:18px;
+}
+
+.inner {
+  /*position: relative;*/
+	float: left;
+	width: 100%;
+	font-size:18px;
+}
+
+.logos {
+	background-color: white;
+	height: 70%;
+	width: 98%;
+	margin: 1%;
+	font-size:18px;
+}
+
+/*
+.logoBox{
+	height: 20%;
+	width: 20%;
+	background-image: url(images/logo1.png);
+	background-size: cover;
+ 	background-position: center;
+	display: inline-block;
+	margin: 1%;
+}
+*/
+
+.main-box{
+	height: 338px;
+	background-color: #ff00d7;
+	background-image: url(images/homeBkrg.jpg);
+	background-size:100%;
+	text-align: center;
+	color: slategrey;
+	font-size:18px;
+}
+
+.navBox{
+	background-color:aqua;
+	color: black;
+	float: left;
+	height: 200px;
+	margin-left: 3%;
+	opacity: 0.3;
+	position: relative;
+	text-align: center;
+	width: 45%;
+	font-size:18px;
+}
+
+
+div.navBox:hover{
+	opacity:1;
+	/*margin-left: 3%;
+	width: 30%;
+	height: 200px;
+	float: left;
+	background-image:url( images/distribution3.jpg);
+	position: relative;*/
+	font-size:18px;
+}
+
+.storyBoxes{
+	margin-top: 20px;	
+	font-size:18px;
+}
+
+.storyBox{
+	margin-left: 1%;
+	width: 19%;
+	height: 200px;
+	float: left;
+	background-color:rebeccapurple;
+	position: relative;
+	font-size:18px;
+}
+
+/*Working!*/
+.storyBox:hover{
+	margin-left: 1%;
+	width: 19%;
+	height: 200px;
+	float: left;
+	/*background-color:green;*/
+	position: relative;
+	font-size:18px;
+}
+
+.storyBox:hover .hide{
+	visibility: visible;
+	font-size:18px;
+}
+
+.outer {
+  position: relative;
+  margin-top: 20px;
+	font-size:18px;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+	font-size:18px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+	font-size:18px;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+	font-size:18px;
+}
+
+/* Might Just remove*/
+div.desc {
+    padding: 15px;
+    text-align: center;
+	font-size:18px;
+}
+
+#caseDesc{
+	padding: 30px;
+	color: blanchedalmond;
+	font-family: Helvetica;
+	font-size: 50px;
+	width: 96%;
+	height: 30%;
+	background-color: slategray;
+	opacity: 0.6;
+	font-size:18px;
+}
+
+#methodBox{
+	background-image: url(images/mfg3.jpg);	
+	font-size:18px;
+}
+
+#studyBox{
+	background-image: url(images/loco5.jpg);
+	font-size:18px;
+}
+
+#galleryBox{
+	background-image: url(images/turbine4.jpg);
+	font-size:18px;
+}
+
+#galleryTitle{
+	text-align: center;
+	padding: 0px;
+	margin: 1%;
+	font-family: Helvetica;
+	color: black;
+	font-size:18px;
+}
+
+#bfmx{
+	background-image: url(images/BFMX1.jpg);
+	font-size:18px;
+}
+
+#bowl{
+	background-image: url( images/noBowl1.jpg);
+	font-size:18px;
+}
+
+#probe{
+	background-image: url(images/probe1.jpg);
+	font-size:18px;
+}
+
+#robo{
+	background-image: url( images/loco1.jpg);
+	font-size:18px;
+}
+
+#wind{
+	background-image: url(images/turbine1.jpg);	
+	font-size:18px;
+}
+
+#bfmx:hover{
+	background-image: url(images/BFMX4.jpg);
+	font-size:18px;
+}
+
+#bowl:hover{
+	background-image: url(images/noBowl3.jpg);	
+	font-size:18px;
+}
+
+#probe:hover{
+	background-image: url(images/probe3.png);
+	font-size:18px;
+}
+
+#robo:hover{
+	background-image: url(images/loco4.png);	
+	font-size:18px;
+}
+
+#wind:hover{
+	background-image: url(images/turbine4.jpg);	
+	font-size:18px;
+}
+
+/*
+#logo1{
+	background-image: url(images/logo1.png);
+}
+#logo2{
+	background-image: url( images/logo2.jpg);
+}
+#logo3{
+	background-image: url( images/logo3.jpg);
+}
+#logo4{
+	background-image: url( images/logo4.png);
+}
+#logo5{
+	background-image: url( images/logo5.png);
+}
+#logo6{
+	background-image: url( images/logo6.jpg);
+}
+#logo7{
+	background-image: url( images/logo7.png);
+}
+#logo8{
+	background-image: url( images/logo8.png);
+}
+#logo9{
+	background-image: url( images/logo9.png);
+}
+#logo10{
+	background-image: url( images/logo10.png);
+}
+#logo11{
+	background-image: url( images/logo11.png);
+}
+#logo12{
+	background-image: url( images/logo12.png);
+}
+#logo13{
+	background-image: url( images/logo13.jpg);
+}
+#logo14{
+	background-image: url( images/logo14.png);
+}
+#logo15{
+	background-image: url( images/logo15.png);
+}
+#logo16{
+	background-image: url( images/logo16.png);
+}
+#logo17{
+	background-image: url( images/logo17.png);
+}
+#logo18{
+	background-image: url( images/logo18.jpg);
+}
+#logo19{
+	background-image: url( images/logo19.png);
+}
+*/
